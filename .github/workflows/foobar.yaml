@@ -2,7 +2,7 @@ name: FooBarCI
 
 env:
   PYTHON_RUN_ENV: local
-  PYTHON_VERSION: 3.12
+  PYTHON_VERSION: 3.13
 
 on:
   workflow_call:
