@@ -9,4 +9,6 @@ on:
 
 jobs:
   display-env-var:
+    uses: ./.github/workflows/foobar.yaml
+  display-env-var-ii:
     uses: danirus/with-env-vars-gha-part-ii/.github/workflows/foobar.yaml@v2
